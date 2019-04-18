@@ -7,12 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class PetCafe {
 	
-	@Autowired
-	@Qualifier("cat")
 	private Animal animal;
 	
 	@Autowired
-	public PetCafe(@Qualifier("cat")Animal animal) {
+	public PetCafe(Animal animal) {
 		this.animal = animal;
 	}
 	

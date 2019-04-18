@@ -18,5 +18,4 @@ public class Manager extends Worker {
 	public void goToOffice() {
 		System.out.println("아침이라,,,힘들다,,오후에가야지,,,,,");
 	}
-
 }
